@@ -6,8 +6,8 @@ This is a React application. It provides a user-friendly interface for interacti
 
 To get started with this app, follow these steps:
 
-1. Clone this repository to your local machine using `git clone https://github.com/your-username/your-repo.git`.
-2. Navigate to the project directory: `cd your-repo`.
+1. Clone this repository to your local machine using `git clone https://github.com/kumarkshitij171/Dashboard-React.git`.
+2. Navigate to the project directory: `cd Dashboard-React`.
 3. Install the necessary dependencies by running `npm install`.
 4. Start the development server with `npm start`.
 5. Open your web browser and go to `http://localhost:5173` to view the app.
