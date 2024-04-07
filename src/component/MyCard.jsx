@@ -44,7 +44,7 @@ const MyCard = ({ tasks, ID }) => {
               <CardActionArea>
                 <CardMedia
                   component="img"
-                  height="140"
+                  className='w-full h-60 object-cover'
                   image={task.img ? task.img : ""}
                   alt="Image Not Found"
                 />
@@ -67,7 +67,7 @@ const MyCard = ({ tasks, ID }) => {
 
       <div
         onClick={onOpenModal}
-        className="bg-[#F9FAF5] w-80 h-[350px] rounded-md flex items-center justify-center cursor-pointer ">
+        className="bg-[#F9FAF5] w-80 h-[22rem] rounded-md flex items-center justify-center cursor-pointer shadow-md">
         <CiCirclePlus className='text-6xl' />
       </div>
       <Modal open={open} onClose={onCloseModal} center>

@@ -48,9 +48,9 @@ const Navbar = () => {
                         type="search"
                     />
                 </div>
-                <div className="flex items-center justify-center gap-3 bg-[#EAF5FB] py-1 px-2 rounded-md font-bold cursor-pointer ">
+                <div className="flex items-center justify-center gap-3 bg-[#EAF5FB] py-1 px-2 rounded-md font-bold cursor-pointer">
                     <CircularProgressWithLabel value={62} />
-                    Quick Start
+                    <p>Quick Start</p>
                 </div>
 
                 <div className="bg-[#F6C481] h-10 w-10 font-bold rounded-full flex justify-center items-center cursor-pointer">J</div>

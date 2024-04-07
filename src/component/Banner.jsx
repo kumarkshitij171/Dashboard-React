@@ -11,7 +11,7 @@ const Banner = () => {
 
             <div className="font-bold">
                 Your AI Storyboard Bundle Discount expires in
-                <span className='bg-[#FBE9CB] text-pink-400 py-1 px-2 rounded-md'>5:01</span>
+                <span className='bg-[#FBE9CB] text-pink-400 py-1 px-2 rounded-md ml-1'>5:01</span>
             </div>
 
             <button className='bg-[#f38c98] px-3 py-1 rounded-md hover:bg-[#fd6b7c] font-bold'>Claim Discount</button>
