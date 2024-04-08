@@ -40,11 +40,14 @@ const MyCard = ({ tasks, ID }) => {
       {
         tasks.map((task) => (
           <div key={task.id}>
-            <Card sx={{ maxWidth: 345, maxHeight: 350 }}>
+            <Card 
+            className='w-64 md:w-80 h-80 md:h-[22rem] shadow-md rounded-md'
+            // sx={{ maxWidth: 345, maxHeight: 350 }}
+            >
               <CardActionArea>
                 <CardMedia
                   component="img"
-                  className='w-full h-60 object-cover'
+                  className='w-full h-48 md:h-60 object-cover'
                   image={task.img ? task.img : ""}
                   alt="Image Not Found"
                 />
@@ -67,7 +70,7 @@ const MyCard = ({ tasks, ID }) => {
 
       <div
         onClick={onOpenModal}
-        className="bg-[#F9FAF5] w-80 h-[22rem] rounded-md flex items-center justify-center cursor-pointer shadow-md">
+        className="bg-[#F9FAF5] w-64 md:w-80 h-80 md:h-[22rem] rounded-md flex items-center justify-center cursor-pointer shadow-md">
         <CiCirclePlus className='text-6xl' />
       </div>
       <Modal open={open} onClose={onCloseModal} center>

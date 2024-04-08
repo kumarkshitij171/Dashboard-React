@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
@@ -40,7 +40,7 @@ const ProjectAccordion = () => {
                                 <Typography>{project.title}</Typography>
                             </AccordionSummary>
                             <AccordionDetails>
-                                <Typography className='flex flex-wrap gap-3'>
+                                <Typography className='flex flex-wrap gap-2 md:gap-3'>
                                     <MyCard tasks={project.tasks} ID={project.id} />
                                 </Typography>
                             </AccordionDetails>
